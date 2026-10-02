@@ -1,0 +1,195 @@
+<html>
+  <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartWatch Product</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <>
+
+    <header>
+        <div class="logo">SmartWatch</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+
+    <div class="hero-text">
+        <h1>SmartWatch Pro</h1>
+      <button onclick="document.querySelector('.watch-card').scrollIntoView({behavior: 'smooth'})">
+  Shop Now
+      </button>
+
+        <h2>Your Smart Life Starts Here</h2>
+
+        <p>
+            Track your fitness, monitor your daily activities
+            and stay connected with our modern smartwatch.
+        </p>
+
+        <button>Buy Now</button>
+    </div>
+
+    <div class="hero-image">
+        <img
+            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+            alt="Smart Watch">
+    </div>
+
+    </section>
+    <section class="features" id="features">
+
+    <h2>Why Choose Our Product?</h2>
+
+    <div class="feature-container">
+
+        <div class="feature">
+            <h3>❤️ Health Tracking</h3>
+            <p>Monitor your health and daily activities easily.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🔋 Long Battery</h3>
+            <p>Enjoy long-lasting battery performance every day.</p>
+        </div>
+
+        <div class="feature">
+            <h3>📱 Easy Connection</h3>
+            <p>Stay connected with notifications and calls.</p>
+        </div>
+
+    </div>
+
+    </section>
+
+  <section class="contact" id="contact">
+
+    <h2>Get Your SmartWatch Today</h2>
+
+    <p>Experience technology designed for your lifestyle.</p>
+
+    <button onclick="orderNow()">Order Now</button>
+
+<section class="watches" id="watches">
+    <h2>Our Watches</h2>
+
+    <div class="watch-container">
+        <div class="watch-card">
+          <p class="shipping">🚚 Free Shipping</p>
+          <p class="stock">🔥 Limited Stock</p>
+          <button onclick="alert('Watch details coming soon!')">
+  View Details
+          </button>
+          <span class="new-label">NEW ARRIVAL</span>
+            <h3>SmartWatch Pro</h3>
+            <p>Advanced features for your daily life.</p>
+            <button>View Watch</button>
+        </div>
+
+    <h2 class="featured-title" id="watches">Featured Watches</h2>
+      <div class="watch-card">
+          <span class="new-label">BEST SELLER</span>
+        <span class="new-label">POPULAR CHOICE</span>
+          <p class="payment">🔒 Secure Payment</p>
+          <p class="returns">🔄 Easy Returns</p>
+          <p class="support">💬 Customer Support Available</p>
+            <h3>SmartWatch Classic</h3>
+            <p>Simple design with smart technology.</p>
+            <button>View Watch</button>
+        </div>
+    </div>
+</section>
+  </section>
+
+<footer>
+    <p>© 2026 SmartWatch. All Rights Reserved.</p>
+</footer>
+ <section class="watch-details">
+  <h2>Why Choose Our Watches?</h2>
+   <h2>Why Shop With Us?</h2>
+  <p>Elegant designs, premium quality, and comfortable styles for every occasion.</p>
+   <div class="quality-box">
+     <div class="favorite-box">
+  <h3>❤️ Customer Favorite</h3>
+  <p>Our watches are designed to add style to every occasion.</p>
+     </div>
+  <h3>🏆 Quality Guaranteed</h3>
+  <p>We focus on quality, style, and customer satisfaction.</p>
+   </div>
+
+  <div class="details-box">
+    <div>
+      <h3>✨ Premium Quality</h3>
+      <p>Made with carefully selected materials.</p>
+    </div>
+
+    <div>
+      <h3>🚚 Fast Delivery</h3>
+      <p>Get your favorite watch delivered quickly.</p>
+    </div>
+
+    <div>
+      <h3>🔒 Secure Shopping</h3>
+      <p>Your shopping experience is safe and simple.</p>
+    </div>
+  </div>
+ </section>
+    <section class="about">
+  <h2>About Our Watch Store</h2>
+  <p>
+    We bring stylish and reliable watches for everyday wear,
+    special occasions, and every moment that matters.
+  </p>
+    </section>
+ <section class="contact">
+   <section class="shop-banner">
+  <h2>Find Your Perfect Watch</h2>
+  <p>Explore our collection and choose a style that matches you.</p>
+  <button onclick="document.querySelector('.watch-card').scrollIntoView({behavior: 'smooth'})">
+    Shop Now
+  </button>
+  <p class="shipping-highlight">🚚 Free Shipping on Selected Orders</p>
+     <p class="secure-highlight">🔐 Secure & Reliable Shopping</p>
+   </section>
+  <h2>Contact Us</h2>
+  <p>Have questions? We'd love to hear from you.</p>
+
+  <div class="contact-info">
+    <p>📧 Email: watchstore@example.com</p>
+    <p>📞 Phone: +91 98765 43210</p>
+    <p>📍 Location: India</p>
+  </div>
+ </section>
+<footer>
+  <p>© 2026 Watch Store. All Rights Reserved.</p>
+  <p>Designed with ❤️ for watch lovers.</p>
+</footer>
+
+<script>
+window.addEventListener("scroll", function() {
+  const button = document.querySelector(".top-btn");
+
+  if (window.scrollY > 300) {
+    button.style.display = "block";
+  } else {
+    button.style.display = "none";
+  }
+});
+function orderNow() {
+  alert("Thank you for your order! We will contact you soon.");
+}
+</script>
+
+<button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="top-btn">
+  ↑
+</button>
+  </body>
+</html>
+
